@@ -16,10 +16,10 @@ $(call inherit-product, vendor/realme/RMX2020/RMX2020-vendor.mk)
 $(call inherit-product, vendor/realme/RMX2020-ims/RMX2020-ims.mk)
 
 # RealmeDirac
-$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
+$(call inherit-product, $(DEVICE_PATH)/app/RealmeDirac/dirac.mk)
 
 # Parts
-$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
+$(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
@@ -335,7 +335,6 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    perf_profile.sh \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6768.rc \

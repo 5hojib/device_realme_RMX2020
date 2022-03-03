@@ -21,6 +21,9 @@ $(call inherit-product, $(DEVICE_PATH)/app/RealmeDirac/dirac.mk)
 # Parts
 $(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)
 
+# Mediatek Common Kernel Headers
+$(call inherit-product, kernel/mediatek/common-headers/device.mk)
+
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Dynamic Partition

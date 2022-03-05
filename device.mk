@@ -410,7 +410,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-V2-ndk_platform.vendor
+    android.hardware.vibrator-V2-ndk.vendor
 
 # VNDK
 PRODUCT_COPY_FILES += \

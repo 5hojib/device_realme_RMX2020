@@ -59,9 +59,6 @@ TARGET_BOOTLOADER_BOARD_NAME := oppo6769
 BOARD_HAS_MTK_HARDWARE := true
 TARGET_NO_BOOTLOADER := true
 
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_RMX2020.mk
+    $(LOCAL_DIR)/RMX2020.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_RMX2020-user \
-    arrow_RMX2020-userdebug \
-    arrow_RMX2020-eng
+    RMX2020-user \
+    RMX2020-userdebug \
+    RMX2020-eng

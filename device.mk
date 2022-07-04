@@ -21,6 +21,9 @@ $(call inherit-product, vendor/realme/RMX2020/RMX2020-vendor.mk)
 # Parts
 #$(call inherit-product, $(DEVICE_PATH)/app/RealmeParts/parts.mk)
 
+# Extensions
+$(call inherit-product, vendor/extensions/extensions.mk)
+
 # Mediatek Common Kernel Headers
 $(call inherit-product, kernel/mediatek/common-headers/device.mk)
 

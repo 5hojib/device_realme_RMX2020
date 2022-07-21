@@ -301,6 +301,10 @@ PRODUCT_PACKAGES += \
     product_charger_res_images
 
 # Power
+
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-mediatek.RMX2020
+
 PRODUCT_PACKAGES += \
     android.hardware.power-V1.vendor \
     android.hardware.power-V1-ndk_platform.vendor \

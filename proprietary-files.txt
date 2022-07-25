@@ -1868,7 +1868,7 @@ vendor/lib64/libocam_common.so
 vendor/lib64/liboplus_audio_config.so
 vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpixelflinger.so
-vendor/lib64/libpowerhal.so
+-vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so

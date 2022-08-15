@@ -48,7 +48,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio_policy.stub \
     audio.bluetooth.default \
     audio.r_submix.default \

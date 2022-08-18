@@ -131,6 +131,7 @@ BOARD_MAIN_PARTITION_LIST := product vendor system system_ext odm
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
 

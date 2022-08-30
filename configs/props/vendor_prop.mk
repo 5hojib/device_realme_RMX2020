@@ -331,6 +331,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     debug.sf.earlyGl.sf.duration=27600000 \
     debug.sf.earlyGl.app.duration=20000000 \
     debug.sf.hwc.min.duration=23000000 \
+    ro.surface_flinger.uclamp.min=130 \
     ro.telephony.default_network=9,9,9,9 \
     ro.telephony.iwlan_operation_mode=default \
     ro.telephony.sim.count=2 \

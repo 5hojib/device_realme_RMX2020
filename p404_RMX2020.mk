@@ -11,20 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX2020/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Project 404 stuff.
+$(call inherit-product, vendor/404/configs/common.mk)
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_RMX2020
+PRODUCT_NAME := p404_RMX2020
 PRODUCT_DEVICE := RMX2020
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme Monet
 PRODUCT_MANUFACTURER := realme
 
 TARGET_BOOT_ANIMATION_RES := 720
-
-# ArrowOS additions
-DEVICE_MAINTAINER := sarthakroy2002
 
 # Build info
 BUILD_FINGERPRINT := "google/coral/coral:12/SQ3A.220705.003.A1/8672226:user/release-keys"

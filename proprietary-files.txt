@@ -24,3 +24,6 @@ lib/libshowlogo.so
 vendor/lib/libdpframework.so:product/vendor_overlay/29/lib/libdpframework.so|9b7726891d7432869742d02674cb367d770ed772
 vendor/lib64/libdpframework.so:product/vendor_overlay/29/lib64/libdpframework.so|48d574415db7f42a855841197a81039274edd20a
 vendor/lib/libvpud_vcodec.so:product/vendor_overlay/29/lib/libvpud_vcodec.so|f64b62e94a3f6edb661b7b74c3ec34c19ee710bb
+
+# Fingerprint - from moto_troika 9/PSB29.105-27/fd362:user/release-keys
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs:product/vendor_overlay/29/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs|ad879e7ed06f50c804e79fb9312614c4fdef49e5

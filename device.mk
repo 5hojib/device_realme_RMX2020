@@ -299,9 +299,8 @@ PRODUCT_PACKAGES += \
     product_charger_res_images
 
 # Power
-
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-mediatek.RMX2020
+    android.hardware.power-service-V1-mediatek
 
 PRODUCT_PACKAGES += \
     android.hardware.power-V1.vendor \
@@ -395,7 +394,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH) \
+    hardware/mediatek
 
 # Camera
 PRODUCT_PACKAGES += \

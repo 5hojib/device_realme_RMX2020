@@ -19,6 +19,7 @@ vendor/lib/libaudiofmtconv.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
+vendor/lib/libalsautils.so:vendor/lib/libalsautils-mtk.so
 vendor/lib/liboplus_audio_config.so
 vendor/lib/libtinyxml.so
 vendor/lib64/libaudio_engineer_test.so
@@ -33,6 +34,7 @@ vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
+vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-mtk.so
 vendor/lib64/liboplus_audio_config.so
 vendor/lib64/libtinyxml.so
 

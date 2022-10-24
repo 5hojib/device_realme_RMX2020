@@ -259,6 +259,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.log.tag.MDP=S \
     persist.log.tag.mtkpower_client=S \
     persist.log.tag.wpfa_iptable_android=S \
+    persist.log.tag.gralloc4=S \
     persist.radio.multisim.config=dsds \
     persist.vendor.camera3.pipeline.bufnum.base.imgo=4 \
     persist.vendor.camera3.pipeline.bufnum.base.lcso=4 \

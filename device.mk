@@ -297,6 +297,7 @@ PRODUCT_PACKAGES += \
     product_charger_res_images
 
 # Power
+TARGET_USES_MTK_POWERHAL := true
 PRODUCT_PACKAGES += \
     android.hardware.power-service-V1-mediatek
 

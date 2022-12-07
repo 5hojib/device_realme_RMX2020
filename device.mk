@@ -26,10 +26,6 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1600
-TARGET_SCREEN_WIDTH := 720
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0.vendor \
